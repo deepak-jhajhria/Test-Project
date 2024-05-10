@@ -136,7 +136,7 @@ export const StatisticsSecVector = () => {
 export const LineVector = () => {
     return (
         <svg width="852" height="3" viewBox="0 0 972 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M972 1.81592L-1.51396e-05 1.81592" stroke="#5238EA" stroke-width="2" stroke-dasharray="12 12"/>
-        </svg>        
+            <path d="M972 1.81592L-1.51396e-05 1.81592" stroke="#5238EA" strokeWidth="2" strokeDasharray="12 12" />
+        </svg>
     )
 }
