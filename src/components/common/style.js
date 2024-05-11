@@ -92,6 +92,7 @@ C.H3 = styled.h3`
 C.P = styled.p`
   font-size: ${(props) => props.$fontSize || "16px"};
   padding-top:${(props) => props.$mdPaddingTop || "16px"};
+  padding-bottom:${(props) => props.$mdPaddingBottom || ""};
   color: ${(props) => props.$textColor || "#000000"};
   font-weight: ${(props) => props.$fontWeight || "400"};
   font-family: ${(props) => props.$fontFamily || "inter"};
@@ -122,7 +123,7 @@ C.Row = styled.div`
   display: flex;
   flex-wrap: ${(props) => props.$flexWrap || "wrap"};
   justify-content: ${(props) => props.$justifyContent || "space-between"};
-  align-items: ${(props) => props.$alignItems || "none"};
+  align-items: ${(props) => props.$alignItems || ""};
   margin-top:${(props) => props.$mdMarginTop || "0"};
   position:${(props) => props.$position || ""};
 
@@ -164,7 +165,7 @@ C.Card = styled.div`
   max-width: ${(props) => props.$maxWidth || "351px"};
   height:auto;
   box-shadow:${(props) => props.$lgBoxShadow || "0px 31px 73.8px 0px #00000033;"}
-  padding:30px 12px;
+  padding:30px 15px;
   align-items:center;
   justify-content:${(props) => props.$justifyContent || "unset"};
   margin:${(props) => props.$margin || "0 0"};

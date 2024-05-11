@@ -13,7 +13,7 @@ const AiEtfSec = () => {
                 <img className="absolute top-0 w-100 left-0 z-0" src={etfEllipse} alt="etfEllipse" />
                 <img className="absolute top-42 w-100 left-0 z-0 " src={etfEllipseSecond} alt="etfEllipseSecond" />
                 <div className="maxWidth-806 mx-auto relative z-10">
-                    <C.H2 $textColor="white">How to benefit by investing in AI ETFs for <C.Span>high returns</C.Span></C.H2>
+                    <C.H2 $textColor="white">How to benefit by investing <br/> in AI ETFs for <C.Span>high returns</C.Span></C.H2>
                     <C.P $mdPaddingTop='23px' $smPaddingTop='18px' $fontSize='20px' $textAlign="center" $opacity='0.7' $textColor='white'>Artificial Intelligence Exchange Traded Funds are those funds that focus only on the companies that have evolved in the development of new products or services and technological improvements related to AI.</C.P>
                 </div>
                 <C.Row $alignItems='center' $mdMarginTop='75px' $smMarginTop='50px' $marginTop='36px'>

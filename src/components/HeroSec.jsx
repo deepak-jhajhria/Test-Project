@@ -1,7 +1,7 @@
 import { headerCardData } from "./common/Helper"
 import { C } from "./common/style"
 
-const Header = () => {
+const HeroSec = () => {
     return (
         <C.Header>
             <C.Container $mdPaddingTop='100px' $smPaddingTop='80px' $PaddingTop='50px' $mdPaddingBottom='74px' $smPaddingBottom='64px' $paddingBottom='36px'>
@@ -17,7 +17,7 @@ const Header = () => {
                                     <C.Card>
                                         <span>{item.icon}</span>
                                         <C.H3 $paddingTop='31px'>{item.title}</C.H3>
-                                        <C.P $mdPaddingTop='29px' $smPaddingTop='20px' $textAlign='center' $lineHeight='25.6px' $opacity='0.7'>{item.description}</C.P>
+                                        <C.P $mdPaddingBottom='6px' $mdPaddingTop='29px' $smPaddingTop='20px' $textAlign='center' $lineHeight='26.6px' $opacity='0.7'>{item.description}</C.P>
                                         <span className="flex absolute bottom-0 left-50 ellipseBlue -translate-x-50 -translate-y-70"></span>
                                     </C.Card>
                                 </C.Col>
@@ -33,4 +33,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default HeroSec
