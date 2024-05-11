@@ -8,8 +8,8 @@ const Statistics = () => {
         <C.Section $bgColor='#EAEAEA' $overflow='hidden'>
             <C.Container $mdPaddingTop='108px' $smPaddingTop='80px' $PaddingTop='50px' $mdPaddingBottom='165px' $smPaddingBottom='64px' $paddingBottom='36px' $position='relative'>
                 <C.H2>Statistics For <C.Span>Today</C.Span></C.H2>
-                <span className="absolute top-18 left-0"><StatisticsSecVector /></span>
-                <C.Row $mdMarginTop='108px' $smMarginTop='60px' $marginTop='36px' $lgGap='24px' $smGap='20px' $position="relative">
+                <span className="absolute top-14 left-0"><StatisticsSecVector /></span>
+                <C.Row $mdMarginTop='108px' $smMarginTop='60px' $marginTop='36px' $lgGap='24px' $smGap='20px' $position="relative" $zIndex='10'>
                     {
                         statisticsSecData.map((item, index) => (
                             <C.Col key={index} $flexDirection='column'>
@@ -21,6 +21,8 @@ const Statistics = () => {
                         ))
                     }
                 </C.Row>
+                <C.WhiteLayer $left='-92px' $top='50%'></C.WhiteLayer>
+                <C.WhiteLayer $right='-92px' $top='50%'></C.WhiteLayer>
             </C.Container>
         </C.Section>
     )

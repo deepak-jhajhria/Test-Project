@@ -26,7 +26,7 @@ const HeroSec = () => {
                     }
                 </C.Row>
                 <div className="flex justify-center">
-                    <C.Button $mdMarginTop='50px' $smMarginTop='30px' $marginTop='24px'>SIGN UP</C.Button>
+                    <C.Button $mdMarginTop='57px' $smMarginTop='30px' $marginTop='24px'>SIGN UP</C.Button>
                 </div>
             </C.Container>
         </C.Header>

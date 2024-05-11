@@ -8,8 +8,8 @@ const AiEtfSec = () => {
     return (
         <section className="relative overflow-hidden ">
             <C.Ellipse $right='-4%' $left='unset'></C.Ellipse>
-            <img className="absolute top-0 w-100 left-0 z-0" src={etfEllipseFirst} alt="etfEllipseFirst" />
-            <C.Container $mdPaddingTop='245px' $lgPaddingTop='140px' $smPaddingTop='80px' $PaddingTop='50px'  $mdPaddingBottom='185px' $smPaddingBottom='64px' $lgPaddingBottom='140px' $paddingBottom='50px' $position='relative' $zIndex='10'>
+            <img className="absolute -top-33 w-100 left-0 z-0" src={etfEllipseFirst} alt="etfEllipseFirst" />
+            <C.Container $mdPaddingTop='245px' $lgPaddingTop='140px' $smPaddingTop='80px' $PaddingTop='50px'  $mdPaddingBottom='195px' $smPaddingBottom='64px' $lgPaddingBottom='140px' $paddingBottom='50px' $position='relative' $zIndex='10'>
                 <img className="absolute top-0 w-100 left-0 z-0" src={etfEllipse} alt="etfEllipse" />
                 <img className="absolute top-42 w-100 left-0 z-0 " src={etfEllipseSecond} alt="etfEllipseSecond" />
                 <div className="maxWidth-806 mx-auto relative z-10">

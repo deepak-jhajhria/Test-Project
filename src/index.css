@@ -52,6 +52,9 @@
 .top-42 {
   top: 42%;
 }
+.-top-33{
+  top: -33px;
+}
 .left-0 {
   left: 0;
 }
@@ -70,8 +73,8 @@
 .bottom-0 {
   bottom: 0;
 }
-.top-18 {
-  top: 18%;
+.top-14 {
+  top: 14%;
 }
 .top-57 {
   top: 57%;

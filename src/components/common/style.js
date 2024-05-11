@@ -126,7 +126,7 @@ C.Row = styled.div`
   align-items: ${(props) => props.$alignItems || ""};
   margin-top:${(props) => props.$mdMarginTop || "0"};
   position:${(props) => props.$position || ""};
-
+  z-index:${(props) => props.$zIndex || ""};
   @media (max-width: 1240px) {
       margin-top:${(props) => props.$smMarginTop || "0"};
       justify-content: ${(props) => props.$justifyContent || "center"};
@@ -233,3 +233,16 @@ C.Ellipse = styled.div`
   transition: all 0.3s ease 0s;
   filter: ${(props) => props.$filter || "blur(65px)"};
 `;
+
+C.WhiteLayer = styled.div`
+  width:285px;
+  height:422px;
+  background-color: ${(props) => props.$bgColor || "#FFFFFF"};
+  position: absolute;
+  top: ${(props) => props.$top || ""};
+  left: ${(props) => props.$left || ""};
+  opacity: ${(props) => props.$opacity || "1"};
+  right: ${(props) => props.$right || ""};
+  z-index: ${(props) => props.$zIndex || "1"};
+  filter: ${(props) => props.$filter || "blur(65px)"};
+`

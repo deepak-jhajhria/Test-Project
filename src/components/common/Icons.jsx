@@ -140,3 +140,8 @@ export const LineVector = () => {
         </svg>
     )
 }
+export const Layer=()=>{
+    return(
+        <span className="whiteLayer"></span>
+    )
+}
